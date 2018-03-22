@@ -53,21 +53,20 @@ The remaining variables represent values associated to each combination of 'acti
 
 The remaining 66 variables are the averages of the mean's and std's for each of the originally measured variables during the experiments and then processed ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions):
 
-- tBodyAcc-XYZ
-- tGravityAcc-XYZ
-- tBodyAccJerk-XYZ
-- tBodyGyro-XYZ
-- tBodyGyroJerk-XYZ
-- tBodyAccMag
-- tGravityAccMag
-- tBodyAccJerkMag
-- tBodyGyroMag
-- tBodyGyroJerkMag
-- fBodyAcc-XYZ
-- fBodyAccJerk-XYZ
-- fBodyGyro-XYZ
-- fBodyAccMag
-- fBodyAccJerkMag
-- fBodyGyroMag
-- fBodyGyroJerkMag
-
+- tBodyAcc-XYZ (variables 3,4,5 for mean and 6,7,8 fot std)
+- tGravityAcc-XYZ (variables 9,10,11 for mean and 12,13,14 fot std)
+- tBodyAccJerk-XYZ (variables 15,16,17 for mean and 18,19,20 fot std)
+- tBodyGyro-XYZ (variables 21,22,23 for mean and 24,25,26 fot std)
+- tBodyGyroJerk-XYZ (variables 27,28,29 for mean and 30,31,32 fot std)
+- tBodyAccMag (variable 33 for mean and 34 fot std)
+- tGravityAccMag (variable 35 for mean and 36 fot std)
+- tBodyAccJerkMag (variable 37 for mean and 38 fot std)
+- tBodyGyroMag (variable 39 for mean and 40 fot std)
+- tBodyGyroJerkMag (variable 41 for mean and 42 fot std)
+- fBodyAcc-XYZ (variables 43,44,45 for mean and 46,47,48 fot std)
+- fBodyAccJerk-XYZ (variables 49,50,51 for mean and 52,53,54 fot std)
+- fBodyGyro-XYZ (variables 55,56,57 for mean and 58,59,60 fot std)
+- fBodyAccMag (variable 61 for mean and 62 fot std)
+- fBodyAccJerkMag (variable 63 for mean and 64 fot std)
+- fBodyGyroMag (variable 65 for mean and 66 fot std)
+- fBodyGyroJerkMag (variable 67 for mean and 68 fot std)
