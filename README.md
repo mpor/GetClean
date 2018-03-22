@@ -36,9 +36,17 @@
 
 ### Code book for final.txt
 
-final.txt is the tidy data set produced as output of run_analysis.R given the data available in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and present in the working directory, following these steps:
+final.txt is the tidy data set produced as output of run_analysis.R given the data available in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip once present in the working directory, following these steps:
 1. Merge the training and the test sets to create one data set.
 2. Extract only the measurements on the mean and standard deviation for each measurement.
 3. Use descriptive activity names to name the activities in the data set
 4. Appropriately label the data set with descriptive variable names.
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+final.txt represents a data set with 180 observations and 68 variables.
+The first two variables are "activity" and "subject".
+
+"activity" includes each of the 6 activities considered for the measurements: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+
+"subject" is the id of each of the 30 volunteers carrying out the experiments.
+The remaining variables represent values associated to each combination of 'activity' and 'subject', hence the 6x30=180 observations.
